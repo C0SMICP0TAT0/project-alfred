@@ -98,8 +98,8 @@ with continuous feedback loops for robust control.
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/advanced-hexapod-ros.git
-   cd advanced-hexapod-ros
+   git clone https://https://github.com/C0SMICP0TAT0/project-alfred
+   cd project-alfred
    ```
 
 2. **Setup Documentation:**
