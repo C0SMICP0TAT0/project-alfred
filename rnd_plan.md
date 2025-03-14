@@ -30,7 +30,7 @@ This comprehensive research and development plan outlines a methodical approach 
 5. Understand the Arduino programming loop structure
 6. Create a simple program that reads sensor input and controls an output
 
-### 1D: ROS Fundamentals (Weeks 7-10) [NEW SECTION]
+### 1D: ROS Fundamentals (Weeks 7-10)
 1. Install ROS Noetic on the Raspberry Pi
 2. Learn ROS core concepts: nodes, topics, services, and messages
 3. Create simple publisher and subscriber nodes in Python
@@ -49,7 +49,7 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create smooth movement sequences
 5. Explore servo limits and calibration techniques
 6. Implement position feedback mechanisms
-7. **NEW**: Create a ROS node for servo control using rosserial
+7. Create a ROS node for servo control using rosserial
 
 ### 1F: Power System Planning (Weeks 13-14)
 1. Calculate power requirements for all components
@@ -66,7 +66,7 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create detailed measurements for all component placements
 5. Design initial leg segment prototypes
 6. Develop a plan for electronics mounting and cable management
-7. **NEW**: Create URDF (Unified Robot Description Format) models for visualization in ROS
+7. Create URDF (Unified Robot Description Format) models for visualization in ROS
 
 ## Phase 2: Vision and Sensing (2-3 months)
 
@@ -77,8 +77,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Practice image filtering and preprocessing techniques
 5. Create a basic object detection program using color thresholding
 6. Learn about camera calibration and distortion correction
-7. **NEW**: Integrate camera with ROS using image_transport package
-8. **NEW**: Learn to use camera_calibration package for automated calibration
+7. Integrate camera with ROS using image_transport package
+8. Learn to use camera_calibration package for automated calibration
 
 ### 2B: Advanced Object Detection (Weeks 3-4)
 1. Implement more sophisticated object detection using OpenCV
@@ -87,8 +87,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Understand the concept of classifiers for object recognition
 5. Begin experimenting with pre-trained models for common object detection
 6. Create a system to detect and track multiple objects simultaneously
-7. **NEW**: Create ROS nodes for object detection services
-8. **NEW**: Learn to use vision_msgs for standardized vision data
+7. Create ROS nodes for object detection services
+8. Learn to use vision_msgs for standardized vision data
 
 ### 2C: Hailo AI Integration (Weeks 5-6)
 1. Install Hailo AI HAT+ and required software tools
@@ -97,7 +97,7 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Compare performance with and without hardware acceleration
 5. Implement real-time object detection using the Hailo accelerator
 6. Create a robust detection system for tools and environmental features
-7. **NEW**: Integrate Hailo AI with ROS through custom messages and services
+7. Integrate Hailo AI with ROS through custom messages and services
 
 ### 2D: Additional Sensor Integration (Weeks 7-10)
 1. Add distance sensors (ultrasonic or infrared) for obstacle detection
@@ -106,8 +106,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create algorithms to process IMU data for balance feedback
 5. Design and test a sensor fusion approach
 6. Develop a comprehensive environmental awareness system
-7. **NEW**: Use sensor_msgs for standardized sensor data in ROS
-8. **NEW**: Implement robot_localization package for sensor fusion
+7. Use sensor_msgs for standardized sensor data in ROS
+8. Implement robot_localization package for sensor fusion
 
 ### 2E: LiDAR Integration (Weeks 11-12)
 1. Set up a small LiDAR module
@@ -116,8 +116,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Implement obstacle detection using LiDAR data
 5. Combine vision and LiDAR data for improved environmental understanding
 6. Develop path planning based on sensor fusion data
-7. **NEW**: Use pointcloud_to_laserscan package for compatibility with 2D navigation
-8. **NEW**: Explore octomap for 3D environment mapping
+7. Use pointcloud_to_laserscan package for compatibility with 2D navigation
+8. Explore octomap for 3D environment mapping
 
 ## Phase 3: CPG and Movement Control (3-4 months)
 
@@ -136,9 +136,9 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Develop smooth transition mechanisms between gaits
 5. Create parameter adjustment methods for speed and stride length control
 6. Design a modular architecture that separates gait generation from servo control
-7. **NEW**: Implement CPG as a ROS node with dynamic reconfigure for gait parameters
+7. Implement CPG as a ROS node with dynamic reconfigure for gait parameters
 
-### 3C: ROS Control Integration (Weeks 5-6) [NEW SECTION]
+### 3C: ROS Control Integration (Weeks 5-6) 
 1. Learn about the ros_control framework
 2. Implement hardware_interface for the servos
 3. Create controller configurations for different joints
@@ -149,7 +149,7 @@ This comprehensive research and development plan outlines a methodical approach 
 
 ### 3D: Raspberry Pi-Arduino Communication (Weeks 7-8)
 1. Learn serial communication fundamentals
-2. **NEW**: Implement rosserial for Arduino-ROS communication
+2. Implement rosserial for Arduino-ROS communication
 3. Create custom message types for command transmission
 4. Develop error detection and recovery mechanisms
 5. Optimize for real-time performance
@@ -157,7 +157,7 @@ This comprehensive research and development plan outlines a methodical approach 
 
 ### 3E: Multi-Arduino Integration (Weeks 9-10)
 1. Design a communication architecture for multiple Arduinos
-2. **NEW**: Set up multiple rosserial nodes with namespaces
+2. Set up multiple rosserial nodes with namespaces
 3. Create a message routing system for commands
 4. Test command latency and reliability
 5. Develop a status reporting mechanism back to the Raspberry Pi
@@ -170,8 +170,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create smooth interpolation between positions
 5. Implement torque and position limits to prevent damage
 6. Test single leg movement with the CPG-generated patterns
-7. **NEW**: Create a moveit_config package for kinematics computations
-8. **NEW**: Use KDL (Kinematics and Dynamics Library) through MoveIt
+7. Create a moveit_config package for kinematics computations
+8. Use KDL (Kinematics and Dynamics Library) through MoveIt
 
 ### 3G: Full Hexapod Movement (Weeks 13-14)
 1. Connect all six legs to the control system
@@ -180,8 +180,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Develop mechanisms for turning and directional control
 5. Create a speed control interface
 6. Test maneuverability and stability on different surfaces
-7. **NEW**: Use trajectory_msgs for coordinated movement planning
-8. **NEW**: Create custom gait controllers as specialized ROS controllers
+7. Use trajectory_msgs for coordinated movement planning
+8. Create custom gait controllers as specialized ROS controllers
 
 ### 3H: Gripper Development (Weeks 15-16)
 1. Design a simple gripper mechanism
@@ -190,8 +190,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create position control for accurate placement
 5. Implement object detection integration for targeting
 6. Test reliability with various object sizes and shapes
-7. **NEW**: Integrate with grasping_msgs for standardized grasp commands
-8. **NEW**: Use actionlib for long-running grip operations
+7. Integrate with grasping_msgs for standardized grasp commands
+8. Use actionlib for long-running grip operations
 
 ## Phase 4: Autonomous Capabilities (3-4 months)
 
@@ -202,20 +202,20 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Develop leg position adjustment for uneven surfaces
 5. Implement energy-efficient movement patterns
 6. Test adaptability across different environments
-7. **NEW**: Use grid_map package for terrain representation
+7. Use grid_map package for terrain representation
 
 ### 4B: Navigation System (Weeks 3-6)
-1. **NEW**: Set up map_server for environment representation
-2. **NEW**: Implement gmapping or cartographer for SLAM (Simultaneous Localization and Mapping)
-3. **NEW**: Configure move_base for path planning
-4. **NEW**: Create custom costmap layers for hexapod-specific navigation
+1. Set up map_server for environment representation
+2. Implement gmapping or cartographer for SLAM (Simultaneous Localization and Mapping)
+3. Configure move_base for path planning
+4. Create custom costmap layers for hexapod-specific navigation
 5. Develop position tracking algorithms
 6. Create path planning for object retrieval
 7. Develop return-to-home functionality
 8. Implement exploration algorithms for unknown environments
 9. Test navigation reliability and accuracy
-10. **NEW**: Use navfn or global_planner packages for global path planning
-11. **NEW**: Configure local_planner for obstacle avoidance
+10. Use navfn or global_planner packages for global path planning
+11. Configure local_planner for obstacle avoidance
 
 ### 4C: Tool Recognition (Weeks 7-8)
 1. Create a dataset of common tools for recognition
@@ -224,7 +224,7 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Develop position estimation for grasping
 5. Create approach and retrieval strategies
 6. Test recognition reliability across lighting conditions
-7. **NEW**: Publish detected objects using vision_msgs
+7. Publish detected objects using vision_msgs
 
 ### 4D: Tool Manipulation (Weeks 9-10)
 1. Refine gripper control for various tool shapes
@@ -233,8 +233,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create transport strategies for different tool types
 5. Implement placement precision control
 6. Test the entire tool retrieval and delivery process
-7. **NEW**: Use tf2 for object-relative positioning
-8. **NEW**: Integrate manipulation_msgs for standardized manipulation commands
+7. Use tf2 for object-relative positioning
+8. Integrate manipulation_msgs for standardized manipulation commands
 
 ### 4E: Charging System (Weeks 11-16)
 1. Design a charging station with alignment features
@@ -243,8 +243,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create charging station detection algorithms
 5. Develop autonomous docking procedures
 6. Test reliability of the charging process
-7. **NEW**: Create docking action server for autonomous charging
-8. **NEW**: Use diagnostics packages for battery monitoring
+7. Create docking action server for autonomous charging
+8. Use diagnostics packages for battery monitoring
 
 ## Phase 5: Human Interaction (2-3 months)
 
@@ -255,8 +255,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create a command parsing system
 5. Develop command validation and confirmation mechanisms
 6. Test recognition reliability in noisy environments
-7. **NEW**: Use audio_common packages for sound processing
-8. **NEW**: Integrate with pocketsphinx_ros for local speech recognition
+7. Use audio_common packages for sound processing
+8. Integrate with pocketsphinx_ros for local speech recognition
 
 ### 5B: Voice Response (Weeks 3-4)
 1. Create a simple text-to-speech system
@@ -265,7 +265,7 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Develop status update announcements
 5. Create a personality profile for voice responses
 6. Test clarity and understanding across different environments
-7. **NEW**: Use sound_play package for text-to-speech capabilities
+7. Use sound_play package for text-to-speech capabilities
 
 ### 5C: Emotional Expression (Weeks 5-6)
 1. Define a set of emotional states for the robot
@@ -274,7 +274,7 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Implement transitions between emotional states
 5. Develop situational awareness for appropriate emotional responses
 6. Test recognizability of emotional expressions
-7. **NEW**: Publish emotional state to a dedicated ROS topic
+7. Publish emotional state to a dedicated ROS topic
 
 ### 5D: Behavioral Patterns (Weeks 7-10)
 1. Design idle behavior patterns
@@ -283,8 +283,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create attachment simulation behaviors
 5. Implement adaptive responses to human interactions
 6. Test the naturalness and appeal of behaviors
-7. **NEW**: Use smach for behavior state machines
-8. **NEW**: Create behavior action servers for complex behaviors
+7. Use smach for behavior state machines
+8. Create behavior action servers for complex behaviors
 
 ### 5E: Personality Development (Weeks 11-12)
 1. Design a personality framework with key traits
@@ -293,11 +293,11 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Develop adaptive responses based on interaction history
 5. Implement mood variations and transitions
 6. Test personality consistency and development over time
-7. **NEW**: Store personality parameters on the ROS parameter server
+7. Store personality parameters on the ROS parameter server
 
 ## Phase 6: System Integration and Refinement (3-4 months)
 
-### 6A: ROS Ecosystem Optimization (Weeks 1-2) [NEW SECTION]
+### 6A: ROS Ecosystem Optimization (Weeks 1-2) 
 1. Organize all nodes into logical packages
 2. Create comprehensive launch files for different operation modes
 3. Set up rqt_graph for system visualization
@@ -315,8 +315,8 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Implement comprehensive error handling
 5. Develop diagnostic systems for all components
 6. Test integration stability across extended operations
-7. **NEW**: Use diagnostics_aggregator for system health monitoring
-8. **NEW**: Create custom diagnostic analyzers for each subsystem
+7. Use diagnostics_aggregator for system health monitoring
+8. Create custom diagnostic analyzers for each subsystem
 
 ### 6C: Power Optimization (Weeks 5-6)
 1. Analyze power consumption across all systems
@@ -325,7 +325,7 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create battery life projection algorithms
 5. Implement emergency power conservation
 6. Test operation duration under various conditions
-7. **NEW**: Monitor power usage through ROS diagnostics
+7. Monitor power usage through ROS diagnostics
 
 ### 6D: Performance Optimization (Weeks 7-10)
 1. Identify processing bottlenecks
@@ -334,18 +334,18 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Improve communication protocols for reduced latency
 5. Optimize memory usage across all systems
 6. Test and benchmark all critical operations
-7. **NEW**: Use tracetools for performance analysis
-8. **NEW**: Optimize message passing patterns for efficiency
+7. Use tracetools for performance analysis
+8. Optimize message passing patterns for efficiency
 
 ### 6E: User Experience (Weeks 11-14)
 1. Design simple control interfaces
-2. **NEW**: Create a rqt plugin for robot control
-3. **NEW**: Implement a web interface using rosbridge
+2. Create a rqt plugin for robot control
+3. Implement a web interface using rosbridge
 4. Implement user profiles for personalized interactions
 5. Develop status monitoring and notification systems
 6. Create documentation for operation and maintenance
 7. Test usability with different user types
-8. **NEW**: Create a visualization system using rviz
+8. Create a visualization system using rviz
 
 ### 6F: Final Testing and Documentation (Weeks 15-16)
 1. Create comprehensive test protocols
@@ -354,12 +354,12 @@ This comprehensive research and development plan outlines a methodical approach 
 4. Create detailed documentation of all systems
 5. Prepare maintenance and troubleshooting guides
 6. Finalize all code with thorough comments and explanations
-7. **NEW**: Document ROS API for all custom packages
-8. **NEW**: Create rosdoc documentation for the entire system
+7. Document ROS API for all custom packages
+8. Create rosdoc documentation for the entire system
 
 ## Learning Approach for Critical Components
 
-### ROS Learning Progression [NEW SECTION]
+### ROS Learning Progression 
 1. **Start with core concepts**
    - Understand the publisher/subscriber model
    - Learn about ROS services and actions
@@ -389,83 +389,83 @@ This comprehensive research and development plan outlines a methodical approach 
 1. **Start with basic color detection**
    - Detect objects of specific colors against simple backgrounds
    - Learn image processing fundamentals
-   - **NEW**: Create ROS nodes for publishing detection results
+   - Create ROS nodes for publishing detection results
 
 2. **Move to shape and feature detection**
    - Use contour detection to identify object shapes
    - Learn feature extraction techniques
-   - **NEW**: Publish detected features as ROS messages
+   - Publish detected features as ROS messages
 
 3. **Implement basic classification**
    - Use simple algorithms to classify objects based on features
    - Begin working with classification algorithms
-   - **NEW**: Create classification services in ROS
+   - Create classification services in ROS
 
 4. **Integrate pre-trained models**
    - Use existing models for common object detection
    - Learn about neural network inference
-   - **NEW**: Use ROS for model loading and management
+   - Use ROS for model loading and management
 
 5. **Add Hailo acceleration**
    - Port your models to the Hailo platform
    - Optimize for real-time performance
-   - **NEW**: Create optimized ROS nodes for hardware acceleration
+   - Create optimized ROS nodes for hardware acceleration
 
 ### CPG Implementation Learning Progression
 1. **Understand the mathematical foundations**
    - Study oscillator models (Kuramoto, Hopf, etc.)
    - Implement and visualize single oscillators
-   - **NEW**: Create ROS parameters for oscillator configuration
+   - Create ROS parameters for oscillator configuration
 
 2. **Develop oscillator networks**
    - Create coupled oscillator systems
    - Understand phase synchronization
-   - **NEW**: Publish oscillator states as ROS topics
+   - Publish oscillator states as ROS topics
 
 3. **Implement the 6-oscillator model**
    - Create one oscillator per leg
    - Develop phase relationships for different gaits
-   - **NEW**: Create a dedicated CPG ROS node
+   - Create a dedicated CPG ROS node
 
 4. **Develop phase-to-joint mapping**
    - Create functions that convert oscillator phase to joint angles
    - Implement leg trajectory generation
-   - **NEW**: Use ROS trajectory messages for joint control
+   - Use ROS trajectory messages for joint control
 
 5. **Integrate with control systems**
    - Connect CPG output to servo control
    - Implement gait transition mechanisms
-   - **NEW**: Use ros_control for hardware abstraction
+   - Use ros_control for hardware abstraction
 
 ### Servo Control Learning Progression
 1. **Single servo control**
    - Learn basic PWM control
    - Understand positioning and timing
-   - **NEW**: Create ROS joint_state publisher for a single servo
+   - Create ROS joint_state publisher for a single servo
 
 2. **Multiple servo coordination**
    - Control related servos (e.g., one leg)
    - Learn about timing and synchronization
-   - **NEW**: Use trajectory_msgs for coordinated movement
+   - Use trajectory_msgs for coordinated movement
 
 3. **Arduino interface development**
    - Create robust control libraries
    - Implement position and speed control
-   - **NEW**: Implement rosserial for Arduino-ROS communication
+   - Implement rosserial for Arduino-ROS communication
 
 4. **Multi-Arduino coordination**
    - Develop communication between Arduino boards
    - Ensure synchronized movement
-   - **NEW**: Use ROS message passing for inter-Arduino communication
+   - Use ROS message passing for inter-Arduino communication
 
 5. **Full hexapod control**
    - Integrate all servos into a coordinated system
    - Implement comprehensive movement control
-   - **NEW**: Create a complete ROS control system for the hexapod
+   - Create a complete ROS control system for the hexapod
 
 ## Technical Implementation Details
 
-### ROS Architecture Overview [NEW SECTION]
+### ROS Architecture Overview 
 The ROS implementation will follow a hierarchical structure:
 
 1. **Hardware Interface Layer**
