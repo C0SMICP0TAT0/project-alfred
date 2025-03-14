@@ -1,5 +1,5 @@
 
-# Advanced Hexapod Robot with ROS Integration
+# A cute hexapod pet 
 
 This repository hosts the research and development plan for building an advanced hexapod robot enhanced with ROS (Robot Operating System) integration. The project is designed for individuals with a strong mathematical background who are new to electronics and programming, guiding you through a step-by-step learning process from foundational skills to a fully autonomous, interactive robot.
 
