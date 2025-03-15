@@ -9,25 +9,25 @@ This comprehensive research and development plan outlines a methodical approach 
 ### 1A: Basic Electronics and Programming Fundamentals (Weeks 1-2)
 1. Learn basic circuit concepts: voltage, current, resistance, and Ohm's Law
 2. Practice using a multimeter to measure voltage and resistance
-3. Set up a simple LED circuit on a breadboard
-4. Learn fundamental programming concepts through Python tutorials
-5. Create basic Python scripts on the Raspberry Pi
-6. Practice Linux command line operations essential for Raspberry Pi management
+3. Set up a simple LED circuit on a breadboard (done)
+4. Learn fundamental programming concepts through Python tutorials (Learning it on the fly)
+5. 5. Create basic Python scripts on the Raspberry Pi (done)
+6. Practice Linux command line operations essential for Raspberry Pi management (Learning it on the fly)
 
 ### 1B: Raspberry Pi Mastery (Weeks 3-4)
-1. Configure the Raspberry Pi operating system with necessary packages
-2. Learn GPIO pin control through simple LED blinking exercises
-3. Set up remote access options (SSH, VNC) for headless operation
-4. Install and configure development environments and libraries (Python, OpenCV)
-5. Create a systematic file structure for your project
-6. Practice basic file operations and permissions management
+1. Configure the Raspberry Pi operating system with necessary packages (done)
+2. Learn GPIO pin control through simple LED blinking exercises (done)
+3. Set up remote access options (SSH, VNC) for headless operation (done)
+4. Install and configure development environments and libraries (Python, OpenCV) (done)
+5. Create a systematic file structure for your project (done)
+6. Practice basic file operations and permissions management (meh)
 
 ### 1C: Arduino Introduction (Weeks 5-6)
-1. Set up the Arduino IDE on both your laptop and Raspberry Pi
-2. Create simple sketch programs for LED control
-3. Learn about digital and analog I/O pins
-4. Practice using PWM (Pulse Width Modulation) for LED brightness control
-5. Understand the Arduino programming loop structure
+1. Set up the Arduino IDE on both your laptop and Raspberry Pi (done)
+2. Create simple sketch programs for LED control (done)
+3. Learn about digital and analog I/O pins (done)
+4. Practice using PWM (Pulse Width Modulation) for LED brightness control (meh)
+5. Understand the Arduino programming loop structure (done)
 6. Create a simple program that reads sensor input and controls an output
 
 ### 1D: ROS Fundamentals (Weeks 7-10)
@@ -43,10 +43,10 @@ This comprehensive research and development plan outlines a methodical approach 
 10. Set up Catkin workspace and build system
 
 ### 1E: Single Servo Control (Weeks 11-12)
-1. Learn servo fundamentals: PWM control, angle ranges, and torque limitations
-2. Connect a single servo to an Arduino
-3. Write code to control servo position
-4. Create smooth movement sequences
+1. Learn servo fundamentals: PWM control, angle ranges, and torque limitations (done)
+2. Connect a single servo to an Arduino (done)
+3. Write code to control servo position (done)
+4. Create smooth movement sequences 
 5. Explore servo limits and calibration techniques
 6. Implement position feedback mechanisms
 7. Create a ROS node for servo control using rosserial
@@ -71,11 +71,11 @@ This comprehensive research and development plan outlines a methodical approach 
 ## Phase 2: Vision and Sensing (2-3 months)
 
 ### 2A: Basic Computer Vision (Weeks 1-2)
-1. Set up the Raspberry Pi Camera Module
+1. Set up the Raspberry Pi Camera Module (done)
 2. Learn OpenCV fundamentals: image capture, display, and basic processing
 3. Implement simple color detection algorithms
 4. Practice image filtering and preprocessing techniques
-5. Create a basic object detection program using color thresholding
+5. Create a basic object detection program using color thresholding (from examples (done))
 6. Learn about camera calibration and distortion correction
 7. Integrate camera with ROS using image_transport package
 8. Learn to use camera_calibration package for automated calibration
@@ -91,7 +91,7 @@ This comprehensive research and development plan outlines a methodical approach 
 8. Learn to use vision_msgs for standardized vision data
 
 ### 2C: Hailo AI Integration (Weeks 5-6)
-1. Install Hailo AI HAT+ and required software tools
+1. Install Hailo AI HAT+ and required software tools (done)
 2. Learn about neural network deployment on edge devices
 3. Understand model optimization for the Hailo architecture
 4. Compare performance with and without hardware acceleration
@@ -122,10 +122,10 @@ This comprehensive research and development plan outlines a methodical approach 
 ## Phase 3: CPG and Movement Control (3-4 months)
 
 ### 3A: CPG Mathematical Foundation (Weeks 1-2)
-1. Study oscillator models and equations
-2. Implement a single mathematical oscillator in Python
-3. Visualize oscillator behavior through plots
-4. Learn about oscillator coupling techniques
+1. Study oscillator models and equations (Learning it on the fly)
+2. Implement a single mathematical oscillator in Python (done)
+3. Visualize oscillator behavior through plots (done)
+4. Learn about oscillator coupling techniques 
 5. Understand phase relationships for different gaits
 6. Implement a basic network of coupled oscillators
 
