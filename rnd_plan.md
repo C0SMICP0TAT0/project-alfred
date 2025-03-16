@@ -4,6 +4,8 @@
 
 This comprehensive research and development plan outlines a methodical approach to building an advanced hexapod robot with intelligent capabilities, now enhanced with Robot Operating System (ROS) integration. The plan is specifically tailored for someone with strong mathematical skills but limited prior experience in electronics and programming. Each phase breaks down complex tasks into manageable learning steps that build upon one another, allowing for incremental skill development while making steady progress toward the final goal. The addition of ROS provides a standardized framework that will simplify complex robotics tasks, enable code reuse, and provide powerful tools for visualization and debugging.
 
+This entire project is done using Claude as a reserach assistant. 
+
 ## Phase 1: Foundation Building (4-5 months)
 
 ### 1A: Basic Electronics and Programming Fundamentals (Weeks 1-2)
