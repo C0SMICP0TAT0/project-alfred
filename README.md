@@ -3,6 +3,8 @@
 
 This repository hosts the research and development plan for building an advanced hexapod robot enhanced with ROS (Robot Operating System) integration. The project is designed for individuals with a strong mathematical background who are new to electronics and programming, guiding you through a step-by-step learning process from foundational skills to a fully autonomous, interactive robot.
 
+Repo is currently being documented in obsidian. When I make progress, more info will be updated here.
+
 ## Overview
 
 The project leverages ROS to simplify complex robotics tasks, enable code reuse, and provide powerful tools for visualization and debugging. By following the structured phases outlined in this plan, you will:
